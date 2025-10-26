@@ -2,7 +2,7 @@ import axios from 'axios';
 import { TaskItem } from './types';
 
 const api = axios.create({
-  baseURL: 'https://task-manager-8ub5.onrender.com',
+  baseURL: 'https://task-manager-1-zhp0.onrender.com',
   headers: { 'Content-Type': 'application/json' }
 });
 
